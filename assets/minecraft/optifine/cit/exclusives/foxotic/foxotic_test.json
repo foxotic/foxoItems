@@ -1,0 +1,123 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "./exclusive_torso_foxotic.png"
+	},
+	"elements": [
+		{
+			"from": [4.89897, 11.78106, -8.62484],
+			"to": [12.00497, 18.37543, 1.29486],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [27.86213, 10.67558, 20.89842]},
+			"faces": {
+				"north": {"uv": [1.75, 5.75, 3.25, 7.25], "texture": "#2", "cullface": "down"},
+				"east": {"uv": [0, 5.75, 1.75, 7.25], "texture": "#2", "cullface": "down"},
+				"south": {"uv": [5, 5.75, 6.5, 7.25], "texture": "#2", "cullface": "down"},
+				"west": {"uv": [3.25, 5.75, 5, 7.25], "texture": "#2", "cullface": "down"},
+				"up": {"uv": [3.25, 5.75, 1.75, 4], "texture": "#2", "cullface": "down"},
+				"down": {"uv": [4.75, 4, 3.25, 5.75], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [4.8568, 5.25595, -5.53914],
+			"to": [12.0765, 13.27152, 3.55654],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [2, 2.25, 3.5, 4], "texture": "#2"},
+				"east": {"uv": [0, 2.25, 2, 4], "texture": "#2"},
+				"south": {"uv": [5.5, 2.25, 7, 4], "texture": "#2", "cullface": "down"},
+				"west": {"uv": [3.5, 2.25, 5.5, 4], "texture": "#2"},
+				"up": {"uv": [3.5, 2.25, 2, 0.25], "texture": "#2", "cullface": "down"},
+				"down": {"uv": [5, 0.25, 3.5, 2.25], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [5.46745, 18.97091, 0.5158],
+			"to": [11.43649, 27.21387, 6.2006],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [27.86213, 10.67558, 20.89842]},
+			"faces": {
+				"north": {"uv": [6.5, 7.25, 7.75, 9], "texture": "#2", "cullface": "south"},
+				"east": {"uv": [5.25, 7.25, 6.5, 9], "texture": "#2", "cullface": "south"},
+				"south": {"uv": [9, 7.25, 10.25, 9], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [7.75, 7.25, 9, 9], "texture": "#2", "cullface": "south"},
+				"up": {"uv": [7.75, 7.25, 6.5, 6], "texture": "#2", "cullface": "south"},
+				"down": {"uv": [9, 6, 7.75, 7.25], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6.60441, 22.38179, 2.78972],
+			"to": [10.29953, 30.62475, 5.91636],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [27.86213, 10.67558, 20.89842]},
+			"faces": {
+				"north": {"uv": [0.5, 7.75, 1.25, 9.5], "texture": "#2", "cullface": "south"},
+				"east": {"uv": [0, 7.75, 0.5, 9.5], "texture": "#2", "cullface": "south"},
+				"south": {"uv": [1.75, 7.75, 2.5, 9.5], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [1.25, 7.75, 1.75, 9.5], "texture": "#2", "cullface": "south"},
+				"up": {"uv": [1.25, 7.75, 0.5, 7.25], "texture": "#2", "cullface": "south"}
+			}
+		},
+		{
+			"from": [7.74137, 25.79067, 3.92751],
+			"to": [10.29953, 32, 5.34871],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [26.98213, 10.67558, 20.89842]},
+			"faces": {
+				"north": {"uv": [0.25, 0.5, 0.75, 2], "texture": "#2", "cullface": "south"},
+				"east": {"uv": [0, 0.5, 0.25, 2], "texture": "#2", "cullface": "south"},
+				"south": {"uv": [1, 0.5, 1.5, 2], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [0.75, 0.5, 1, 2], "texture": "#2", "cullface": "south"},
+				"up": {"uv": [0.75, 0.5, 0.25, 0.25], "texture": "#2", "cullface": "south"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [100, 0, 0],
+			"translation": [-6, -18.75, 5.25],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [100, 0, 0],
+			"translation": [-6, -19.25, 5.25],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 14.5, 0]
+		},
+		"gui": {
+			"rotation": [0, -90, 0],
+			"translation": [6.75, 4.75, 0],
+			"scale": [0, 0, 0]
+		},
+		"head": {
+			"rotation": [-1, 0, 0],
+			"translation": [0, -29, 0],
+			"scale": [0, 0, 0]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 3.5, -11.25]
+		}
+	},
+	"groups": [
+		{
+			"name": "exclusive_torso_foxotic",
+			"origin": [0, 0, 0],
+			"children": [
+				{
+					"name": "Tail",
+					"origin": [7, 15, 8],
+					"children": [0, 1, 2, 3, 4]
+				}
+			]
+		}
+	]
+}
